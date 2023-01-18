@@ -5,6 +5,7 @@ import {IdeasComponent} from "./view/ideas/ideas.component";
 import {FindProfessionalsComponent} from "./view/find-professionals/find-professionals.component";
 import {ShopProductsComponent} from "./view/shop-products/shop-products.component";
 import {CategoryScreenComponent} from "./view/category-screen/category-screen.component";
+import {ViewProductComponent} from "./view/view-product/view-product.component";
 
 const routes: Routes = [
   {
@@ -13,8 +14,6 @@ const routes: Routes = [
     title: 'Duhkani - Home',
     pathMatch: 'full'
   },
-
-
 
 //  Ideas Screen Route
   {
@@ -38,6 +37,12 @@ const routes: Routes = [
   {
     path: 'category-screen',
     component: CategoryScreenComponent
+  },
+
+//  View Current Product
+  {
+    path: 'view-product',
+    component: ViewProductComponent
   }
 
 ];

@@ -1,4 +1,7 @@
+//Home Imported Screen
+
 @import url(https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Open+Sans:wght@300&family=Vollkorn&display=swap);
+
 
 
 .home-container h1 {
@@ -9,7 +12,7 @@
 
 
 .home-container {
-  height: 80vh;
+  height: 42vh;
 }
 
 .home-container p {
@@ -50,6 +53,18 @@
   justify-content: center;
 }
 
+
+//Navigation Buttons
+
+
+.nav-links a {
+  padding-top: 10px;
+  margin: 15px;
+  text-decoration: none;
+  color: #00313C;
+}
+
+
 //Need Consultations Section Styling
 
 .card > .lis {
@@ -70,7 +85,23 @@
   image-resolution: normal;
 }
 
-//View Pager
+//View Pager (Pagination)
+
+.pagination {
+  margin-top: 20px;
+
+}
+
+.pagination li {
+  border: 1px solid #00313C;
+
+}
+
+.pagination li a {
+  color: white;
+  background-color: #98C663;
+  border-radius: 0px;
+}
 
 .v-page {
   padding: 19px;
@@ -84,3 +115,16 @@
 .social-icons li {
   margin: 15px;
 }
+
+
+//Filter Input
+
+.filter-input select {
+  margin: 5px;
+  padding: 5px;
+}
+
+
+//################################################### Top are Imported from Category Styling
+
+//View Product Style
